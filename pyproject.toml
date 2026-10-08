@@ -1,0 +1,3 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: requires a reachable GenLayer Studio and configured account"]
